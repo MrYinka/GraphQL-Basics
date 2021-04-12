@@ -1,0 +1,18 @@
+{
+  "name": "graphql-basics",
+  "version": "1.0.0",
+  "description": "GraphQL Basics",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.7"
+  }
+}
